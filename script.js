@@ -1,6 +1,6 @@
+const HELLO_MESSAGE = 'Who are you?'; 
 
-
-let username = prompt('Who are you?');
+let username = prompt(HELLO_MESSAGE);
 
 if(!username)
   alert('bye');
